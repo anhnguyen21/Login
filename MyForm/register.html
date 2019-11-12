@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Form</title>
+    <style type="text/css">
+        body {
+            background: #333;
+            margin: 0;
+            padding: 0;
+            font-family: "Montertat", sans-serif;
+        }
+        
+        #container {
+            background: url(img/bg.jfif);
+            width: 360px;
+            height: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+        
+        #container h1 {
+            font-size: 40px;
+            margin-top: 80px;
+            margin-bottom: 60px;
+        }
+        
+        .tbox {
+            width: 260px;
+            height: 40px;
+            background: #f1f1f1b3;
+            border-radius: 10px;
+            margin: 10px auto;
+        }
+        
+        .tbox input {
+            background: none;
+            border: none;
+            outline: none;
+            text-align: center;
+            width: 90%;
+            line-height: 37px;
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: #333;
+        }
+        
+        .btn {
+            height: 40px;
+            padding: 0 50px;
+            background: #3498db;
+            border-radius: 10px;
+            margin: 14px auto;
+            display: block;
+            font-family: "Montserrat", sans-serif;
+            font-size: 16px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>REGISTER</h1>
+        <form action="" method="post">
+            <div class="tbox">
+                <input type="text" placeholder="@userName" value="" name="user">
+            </div>
+            <div class="tbox">
+                <input type="password" placeholder="@password" value="" name="pass">
+            </div>
+            <div class="tbox">
+                <input type="password" placeholder="@repassword" value="">
+            </div>
+            <input class="btn" type="submit" value="REGISTER">
+            <input class="btn" type="submit" value="LOGIN">
+        </form>
+    </div>
+</body>
+
+</html>
